@@ -40,3 +40,28 @@ Technology
 - jQuery 1.11.2
 - [Slim Framework](http://www.slimframework.com/)
 - [Composer](https://getcomposer.org/)
+
+Additional Notes
+---------------
+*Data* directory must have written access by system user to successfuly run this test.
+
+Authentication must be improved, however I decided to implement a simplified (non production) version for testing purposes.
+
+How to send the API key
+-----------------------
+
+Set a *X-Requested-With* request header with one of the following API keys:
+
+```
+61A255AA315334996F346F8C9CE64 
+
+DEBF4B91133BAEBAFFC52714EF3F6
+
+C1AEA99F573E7DD54F7871B218E58
+
+C5E87BF13FBC3B199E766E35AA592
+```
+
+Posting JSON Objects
+--------------------
+I recommend using [Postman](https://www.getpostman.com/) to send JSON objects and passing the request header with the API key.
