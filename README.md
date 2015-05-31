@@ -3,6 +3,8 @@ Market Trade Processor
 
 This application consumes trade messages via an endpoint, processes those messages and delivers a frontend of processed information based on the consumed messages.
 
+![MTP Screenshot](https://github.com/josesayago/CF-Market-Trade-Processor/blob/screenshots/screenshots/mtp.png)
+
 Message Consumption
 -------------------
 
@@ -65,3 +67,4 @@ C5E87BF13FBC3B199E766E35AA592
 Posting JSON Objects
 --------------------
 I recommend using [Postman](https://www.getpostman.com/) to send JSON objects and passing the request header with the API key.
+![Posting JSON Objects using Postman](https://github.com/josesayago/CF-Market-Trade-Processor/blob/screenshots/screenshots/postman.png)
