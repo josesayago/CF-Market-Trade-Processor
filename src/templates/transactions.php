@@ -12,6 +12,8 @@ $html = '';
 // Get list of users
 $users = Processor::getUsers();
 
+$html.= '<h2>Amounts Sold by User</h2>';
+
 $html.= '<ul class="users">';
 foreach( $users as $id ) {
 	$html.= '<li><a href="#" class="amountSell" data-id="'.$id.'" data-date="'.date('d-Y').'">User '.$id.'</a></li>';
