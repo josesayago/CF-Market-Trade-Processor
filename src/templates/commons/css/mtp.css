@@ -1,0 +1,69 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300);
+@import url('main.css');
+
+html, body { font-family: 'Roboto', sans-serif; }
+
+.header-container {
+    border-bottom: 10px solid rgba(52, 152, 219,1.0);
+    box-shadow: 0 1px 10px rgba(235,235,235,1);
+}
+
+.footer-container,
+.main aside {
+    border-top: 0;
+}
+
+.header-container,
+.footer-container,
+.main aside {
+	color: rgba(52, 152, 219,1.0);
+    background: rgba(254,254,254,1);
+}
+
+.title {
+    color: rgba(52, 152, 219,1.0);
+}
+
+.footer-container footer {
+	color: rgba(52, 152, 219,1.0);
+	font-size: .9em;
+}
+
+.footer-container a {
+	text-decoration: none;
+	font-weight: bold;
+}
+.footer-container a:hover,
+.footer-container a:visited {
+	color: rgba(41, 128, 185,1.0);
+}
+nav a {
+	margin: 0;
+	border: 1px solid rgba(47,147,212,1);
+	border-top: 0;
+	border-bottom: 0;
+	color: rgba(250,250,250,1);
+	background: rgba(52, 152, 219,1.0);
+}
+nav a.active {
+	background: rgba(41, 128, 185,1.0);
+}
+nav a:hover {
+	text-decoration: none;
+	background: rgba(41, 128, 185,1.0);
+}
+#transactions {
+	width: 100%;
+	min-height: 300px;
+	border: 1px solid #ccc;
+}
+ul.users li {
+	display: inline-block;
+}
+ul.users li a {
+	display: block;
+	padding: .5em;
+	text-decoration: none;
+	color: rgba(41,128,185,1);
+	background: rgba(250,250,250,1);
+}
