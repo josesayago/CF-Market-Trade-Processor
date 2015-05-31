@@ -7,6 +7,8 @@ date_default_timezone_set('America/Caracas');
 
 include_once 'commons/header.php';
 
+$html = '';
+
 // Get list of users
 $users = Processor::getUsers();
 

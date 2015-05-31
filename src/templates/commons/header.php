@@ -25,7 +25,7 @@
                 <h1 class="title">Market Trade Processor</h1>
                 <nav>
                     <ul>
-                        <li><a href="/<?php echo $_SERVER['SERVER_NAME']; ?>">Home</a></li>
+                        <li><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>">Home</a></li>
                         <li><a href="transactions">Transactions</a></li>
                     </ul>
                 </nav>

@@ -2,7 +2,7 @@
         </div>
         <div class="footer-container">
             <footer class="wrapper">
-                <p>Made by <a href="http://careers.stackoverflow.com/josesayago">Jose SAYAGO</a> &copy; <?php echo date('Y'); ?></p>
+                <p>Made by <a href="http://careers.stackoverflow.com/josesayago">Jose SAYAGO</a> &copy; <?php echo date('Y'); ?> | <a href="https://github.com/josesayago/CF-Market-Trade-Processor">Project on Github</a></p>
             </footer>
         </div>
 
